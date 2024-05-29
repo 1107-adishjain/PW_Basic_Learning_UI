@@ -59,11 +59,290 @@ class PWApp extends StatelessWidget {
           )
         ],
       ),
-      body: const Center(
-        child: Text(
-          "We are the most loving platform for IIT-JEE and NEET Students",
-          style: TextStyle(fontSize: 20.0),
-        ),
+      body: Column(
+        children: <Widget>[
+          const SizedBox(
+            height: 28.0,
+          ),
+          Row(
+            children: [
+              const Text(
+                "Today's Class",
+                style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 22.0,
+                    fontWeight: FontWeight.w400),
+              ),
+              const SizedBox(
+                width: 1070.00,
+              ),
+              Container(
+                height: 32.0,
+                // width: 4.00,
+                padding: const EdgeInsets.all(6.0),
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.black, width: 1.0),
+                  borderRadius: BorderRadius.circular(12.0),
+                ),
+                child: const Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Icon(
+                      Icons.calendar_month,
+                      color: Colors.blue,
+                    ),
+                    // SizedBox(width: 8.0,),
+                    Text(
+                      "Weekly Schedule",
+                      style: TextStyle(color: Colors.blue),
+                    ),
+                  ],
+                ),
+              )
+            ],
+          ),
+          const SizedBox(
+            height: 18.0,
+          ),
+          Row(
+            children: [
+              Column(
+                children: [
+                  Container(
+                    height: 150.0,
+                    width: 160.0,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Colors.black, width: 1.0),
+                      image: const DecorationImage(
+                        image: AssetImage(
+                            "Images/Screenshot 2024-05-28 125455.png"),
+                        // fit: BoxFit.cover
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 12.0,
+                  ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          const Text(
+                            "Applied Maths",
+                            style: TextStyle(color: Colors.black),
+                          ),
+                          const SizedBox(
+                            width: 12.0,
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(color: Colors.red, width: 2.0),
+                            ),
+                            child: const Text(
+                              "UPCOMING",
+                              style: TextStyle(color: Colors.red),
+                            ),
+                          )
+                        ],
+                      ),
+                      const Row(
+                        children: [
+                          Icon(
+                            Icons.lock_clock,
+                            color: Colors.black,
+                          ),
+                          Text(
+                            "4:00PM ",
+                            style: TextStyle(color: Colors.black),
+                          ),
+                        ],
+                      ),
+                    ],
+                  )
+                ],
+              ),
+              const SizedBox(
+                width: 170.0,
+              ),
+              Column(
+                children: [
+                  Container(
+                    height: 150.0,
+                    width: 160.0,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Colors.black, width: 1.0),
+                      image: const DecorationImage(
+                        image: AssetImage(
+                            "Images/Screenshot 2024-05-28 125455.png"),
+                        // fit: BoxFit.cover
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 12.0,
+                  ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          const Text(
+                            "Applied Maths",
+                            style: TextStyle(color: Colors.black),
+                          ),
+                          const SizedBox(
+                            width: 12.0,
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(color: Colors.red, width: 2.0),
+                            ),
+                            child: const Text(
+                              "UPCOMING",
+                              style: TextStyle(color: Colors.red),
+                            ),
+                          )
+                        ],
+                      ),
+                      const Row(
+                        children: [
+                          Icon(
+                            Icons.lock_clock,
+                            color: Colors.black,
+                          ),
+                          Text(
+                            "4:00PM ",
+                            style: TextStyle(color: Colors.black),
+                          ),
+                        ],
+                      ),
+                    ],
+                  )
+                ],
+              ),
+              const SizedBox(
+                width: 170.0,
+              ),
+              Column(
+                children: [
+                  Container(
+                    height: 150.0,
+                    width: 160.0,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Colors.black, width: 1.0),
+                      image: const DecorationImage(
+                        image: AssetImage(
+                            "Images/Screenshot 2024-05-28 125455.png"),
+                        // fit: BoxFit.cover
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 12.0,
+                  ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          const Text(
+                            "Applied Maths",
+                            style: TextStyle(color: Colors.black),
+                          ),
+                          const SizedBox(
+                            width: 12.0,
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(color: Colors.red, width: 2.0),
+                            ),
+                            child: const Text(
+                              "UPCOMING",
+                              style: TextStyle(color: Colors.red),
+                            ),
+                          )
+                        ],
+                      ),
+                      const Row(
+                        children: [
+                          Icon(
+                            Icons.lock_clock,
+                            color: Colors.black,
+                          ),
+                          Text(
+                            "4:00PM ",
+                            style: TextStyle(color: Colors.black),
+                          ),
+                        ],
+                      ),
+                    ],
+                  )
+                ],
+              ),
+              const SizedBox(width: 170.0,),
+              Column(
+                children: [
+                  Container(
+                    height: 150.0,
+                    width: 160.0,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      border: Border.all(color: Colors.black, width: 1.0),
+                      image: const DecorationImage(
+                        image: AssetImage(
+                            "Images/Screenshot 2024-05-28 125455.png"),
+                        // fit: BoxFit.cover
+                      ),
+                    ),
+                  ),
+                   SizedBox(height: 12.0,),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          const Text(
+                            "Applied Maths",
+                            style: TextStyle(color: Colors.black),
+                          ),
+                          const SizedBox(
+                            width: 12.0,
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(color: Colors.red, width: 2.0),
+                            ),
+                            child: const Text(
+                              "UPCOMING",
+                              style: TextStyle(color: Colors.red),
+                            ),
+                          )
+                        ],
+                      ),
+                      const Row(
+                        children: [
+                          Icon(
+                            Icons.lock_clock,
+                            color: Colors.black,
+                          ),
+                          Text(
+                            "4:00PM ",
+                            style: TextStyle(color: Colors.black),
+                          ),
+                        ],
+                      ),
+                    ],
+                  )
+                ],
+              ),
+            ],
+          ),
+          
+        ],
       ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: 0,
@@ -119,16 +398,19 @@ class PWApp extends StatelessWidget {
                 color: Colors.black,
               ),
               child: Padding(
-                padding: EdgeInsets.only(top: 35.0,left: 0.0,),
+                padding: EdgeInsets.only(
+                  top: 35.0,
+                  left: 0.0,
+                ),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     CircleAvatar(
-                      radius: 40.00,
-                      backgroundImage:AssetImage("Images/WhatsApp Image 2024-05-28 at 23.07.01_52d2f8c6.jpg"),
-                      // backgroundColor: Colors.white,
-                      backgroundColor: Colors.white
-                    ),
+                        radius: 40.00,
+                        backgroundImage: AssetImage(
+                            "Images/WhatsApp Image 2024-05-28 at 23.07.01_52d2f8c6.jpg"),
+                        // backgroundColor: Colors.white,
+                        backgroundColor: Colors.white),
                     SizedBox(
                       width: 12.0,
                     ),
